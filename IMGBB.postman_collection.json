@@ -54,6 +54,15 @@
 				"url": null
 			},
 			"response": []
+		},
+		{
+			"name": "TesteImage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
 		}
 	]
 }
