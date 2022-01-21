@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "6d8c9075-5577-404a-b843-ecd781a123b4",
+		"name": "IMGBB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UploadImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/mcardoso/Desktop/64607010_2469104523177294_6994879052179832832_n.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.imgbb.com/1/upload?expiration=0&key=8605780cdc44688c8fa71d678860fae9",
+					"protocol": "https",
+					"host": [
+						"api",
+						"imgbb",
+						"com"
+					],
+					"path": [
+						"1",
+						"upload"
+					],
+					"query": [
+						{
+							"key": "expiration",
+							"value": "0"
+						},
+						{
+							"key": "key",
+							"value": "8605780cdc44688c8fa71d678860fae9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteImage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
